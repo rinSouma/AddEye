@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "AddEye",
+    "description": "入力欄に自動で目玉つけるやつ",
+    "version": "0.0.1",
+    "content_scripts": [
+        {
+          "matches": [
+            "https://yakumo.tech/*"
+          ],
+          "js": ["js/jquery-3.3.1.min.js","js/common.js"]
+        }
+    ]
+}
