@@ -6,7 +6,8 @@
     "content_scripts": [
         {
           "matches": [
-            "https://yakumo.tech/*"
+            "https://yakumo.tech/*",
+            "https://yakumo.foundation/*"
           ],
           "js": ["js/jquery-3.3.1.min.js","js/common.js"]
         }
